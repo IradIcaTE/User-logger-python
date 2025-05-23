@@ -13,6 +13,8 @@ pipeline {
                 echo "Email: ${params.EMAIL}"
 
                 sh """
+                    ls -l
+                    pwd
                     python3 user_logger.py ${params.USERNAME} ${params.EMAIL}
                 """
             }
