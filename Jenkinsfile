@@ -2,8 +2,8 @@ pipeline {
     agent  {label "First" }
 
     parameters {
-        string( name: 'USERNAME', defaultlValue: "Parth", description: "Enter your username" )
-        string( name: "EMAIL", defaultvalue: "parth@example.com", description: "Enter your email" )
+        string( name: 'USERNAME', defaultValue: "Parth", description: "Enter your username" )
+        string( name: "EMAIL", defaultValue: "parth@example.com", description: "Enter your email" )
     }
 
     stages {
